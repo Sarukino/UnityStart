@@ -193,7 +193,7 @@ MonoBehaviour:
   - {fileID: 16}
   - {fileID: 17}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 433, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 103
+  controlID: 82
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -451,9 +451,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -9.959019, y: -21.909399, z: 31.036808}
+    m_Target: {x: -0.025804931, y: -18.721794, z: 35.241283}
     speed: 2
-    m_Value: {x: -9.959019, y: -21.909399, z: 31.036808}
+    m_Value: {x: -0.025804931, y: -18.721794, z: 35.241283}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -499,13 +499,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.26068917, y: -0.06308876, z: 0.017069755, w: -0.9632234}
+    m_Target: {x: -0.24383338, y: -0.0023318299, z: 0.0005801767, w: -0.9698408}
     speed: 2
-    m_Value: {x: -0.2607106, y: -0.061642937, z: 0.016678454, w: -0.9633026}
+    m_Value: {x: -0.24383338, y: -0.0023318296, z: 0.0005801767, w: -0.96984076}
   m_Size:
-    m_Target: 31.835321
+    m_Target: 29.292938
     speed: 2
-    m_Value: 30.464422
+    m_Value: 29.292938
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -580,7 +580,7 @@ MonoBehaviour:
     x: 0
     y: 73
     width: 1528
-    height: 467
+    height: 469
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
 MonoBehaviour:
@@ -613,7 +613,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e8dcffff12faffff38faffff36fbffff
+      m_ExpandedIDs: 6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -675,20 +675,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Materials
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "P:\\Unity Program\\K\xF6z\xF6s\\UnityTogether"
+  m_LastProjectPath: F:\tananyag\UnityStart\UnityTogether
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 60340000
     m_LastClickedID: 13408
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000001234000014340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -716,7 +715,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000be3c0000023d0000
+    m_ExpandedIDs: ffffffff000000001234000014340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -809,4 +808,4 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 449
+  m_LastVerticalScrollValue: 0
