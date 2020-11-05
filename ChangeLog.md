@@ -6,6 +6,7 @@ Mappa rendszer hozzáadva
 - 2 Plane (játéktér hozzáadva)
 - Gate hozzáadva
 - Player object hozzáadva
+- 1 Pick up
 
 ## Materials
 - Background hozzáadva
