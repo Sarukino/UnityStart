@@ -13,4 +13,5 @@ Mappa rendszer hozzáadva
 ## Prefabs
 
 ## Scripts
-
+- CameraMove
+- PlayerMove
