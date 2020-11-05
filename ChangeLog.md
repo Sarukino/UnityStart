@@ -9,6 +9,8 @@ Mappa rendszer hozzáadva
 
 ## Materials
 - Background hozzáadva
+- Player
+- Gate
 
 ## Prefabs
 
