@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class PlayerMove : MonoBehaviour
 {
 
@@ -16,6 +17,7 @@ public class PlayerMove : MonoBehaviour
     public Text WinText;
     private bool isOpen;
     private float gatemoving;
+    public Animator anim;
 
     // Use this for initialization
     void Start()
@@ -81,6 +83,11 @@ public class PlayerMove : MonoBehaviour
 
     void FixedUpdate()
     {
-        transform.Translate(moveSpeed * Input.GetAxis("Horizontal") * Time.deltaTime, 0f, moveSpeed * Input.GetAxis("Vertical") * Time.deltaTime);
+        // transform.Translate(moveSpeed * Input.GetAxis("Horizontal") * Time.deltaTime, 0f, moveSpeed * Input.GetAxis("Vertical") * Time.deltaTime);
+
+        anim.SetFloat("vertical", Input.GetAxis("Vertical"));
+        anim.SetFloat("horizontal", Input.GetAxis("Horizontal"));
+
+
     }
 }
