@@ -83,10 +83,17 @@ public class PlayerMove : MonoBehaviour
 
     void FixedUpdate()
     {
-         transform.Translate(0f, 0f, moveSpeed * Input.GetAxis("Vertical") * Time.deltaTime);
-         transform.Rotate(0f, 100 * Input.GetAxis("Horizontal") * Time.deltaTime, 0f);
         anim.SetFloat("vertical", Input.GetAxis("Vertical"));
         anim.SetFloat("horizontal", Input.GetAxis("Horizontal"));
+        transform.Rotate(0f, 120 * Input.GetAxis("Horizontal") * Time.deltaTime, 0f);
+        if (Input.GetAxis("Vertical") > -0.1)
+        {
+            transform.Translate(0f, 0f, moveSpeed * Input.GetAxis("Vertical") * Time.deltaTime);
+        }
+        else
+        {
+            transform.Translate(0f, 0f, (moveSpeed * Input.GetAxis("Vertical") * Time.deltaTime)/2);
+        }
 
 
     }
