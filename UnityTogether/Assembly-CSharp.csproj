@@ -246,6 +246,9 @@
  <Reference Include="Animancer.Lite">
  <HintPath>P:/UnityStart/UnityTogether/Assets/Plugins/Animancer/Internal/Core/Animancer.Lite.dll</HintPath>
  </Reference>
+ <Reference Include="clipper_library">
+ <HintPath>P:/UnityStart/UnityTogether/Library/PackageCache/com.unity.cinemachine@2.7.1/Runtime/ThirdParty/clipper_library.dll</HintPath>
+ </Reference>
  <Reference Include="netstandard">
  <HintPath>F:/tananyag/unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
  </Reference>
@@ -594,6 +597,9 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>P:/UnityStart/UnityTogether/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>P:/UnityStart/UnityTogether/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>P:/UnityStart/UnityTogether/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
@@ -611,6 +617,9 @@
  </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>P:/UnityStart/UnityTogether/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>P:/UnityStart/UnityTogether/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>P:/UnityStart/UnityTogether/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>

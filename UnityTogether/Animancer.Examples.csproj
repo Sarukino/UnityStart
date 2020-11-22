@@ -356,6 +356,9 @@
  <Reference Include="Animancer.Lite">
  <HintPath>P:/UnityStart/UnityTogether/Assets/Plugins/Animancer/Internal/Core/Animancer.Lite.dll</HintPath>
  </Reference>
+ <Reference Include="clipper_library">
+ <HintPath>P:/UnityStart/UnityTogether/Library/PackageCache/com.unity.cinemachine@2.7.1/Runtime/ThirdParty/clipper_library.dll</HintPath>
+ </Reference>
  <Reference Include="netstandard">
  <HintPath>F:/tananyag/unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
  </Reference>
