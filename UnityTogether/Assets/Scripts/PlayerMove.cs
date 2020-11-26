@@ -6,7 +6,9 @@ using UnityEngine.UI;
 
 public class PlayerMove : MonoBehaviour
 {
-
+    [SerializeField] private float _jumpforce = 120f;
+    private bool CanJump;
+    private bool Grounded;
     public float moveSpeed;
     private int count;
     private Rigidbody Rb;
@@ -18,6 +20,7 @@ public class PlayerMove : MonoBehaviour
     private bool isOpen;
     private float gatemoving;
     public Animator anim;
+    private float jumped;
 
     // Use this for initialization
     void Start()
@@ -29,7 +32,10 @@ public class PlayerMove : MonoBehaviour
         Key.gameObject.SetActive(false);
         WinText.text = "";
         hasAkey = false;
-    }
+        Grounded = true;
+        jumped = 0f;
+       
+}
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Pick Up"))
@@ -43,6 +49,10 @@ public class PlayerMove : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             hasAkey = true;
+        }
+        else if(other.gameObject.CompareTag("Floor"))
+        {
+            Grounded = true;
         }
         if (hasAkey)
         {
@@ -78,6 +88,10 @@ public class PlayerMove : MonoBehaviour
             }
 
         }
+        if (CanJump == false)
+        {
+            CanJump = Input.GetKeyDown(KeyCode.Space);
+        }
     }
 
 
@@ -94,7 +108,22 @@ public class PlayerMove : MonoBehaviour
         {
             transform.Translate(0f, 0f, (moveSpeed * Input.GetAxis("Vertical") * Time.deltaTime)/2);
         }
+        if (CanJump)
+        {
+            if (jumped <= _jumpforce)
+            {
+                transform.Translate(0f, 10 * Time.deltaTime, 0f);
+                jumped += 10;
+                // Rb.AddForce(_jumpforce * Vector3.up);
 
+            }
+            else
+            {
+                CanJump = false;
+                Grounded = false;
+                jumped = 0;
+            }
+        }
 
     }
 }

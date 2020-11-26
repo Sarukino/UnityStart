@@ -55,7 +55,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\JumpScript.cs" />
      <Compile Include="Assets\PlayAnimation.cs" />
+     <Compile Include="Assets\Respawn.cs" />
      <Compile Include="Assets\Scripts\CameraMove.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
